@@ -1,0 +1,135 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+label {
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+button[type="submit"]:hover {
+  background-color: #ff8c00;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+}
+li {
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+img {
+  width: 80px;
+  height: 80px;
+  
+  margin-right: 20px;
+  object-fit: cover;
+}
+.event-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.event-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.event-date,
+.event-location {
+  font-size: 16px;
+}
+.event-location {
+  margin-top: 5px;
+}
+h2 {
+  margin-top: 0;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+select {
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 12px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+select:focus {
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+option {
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+li {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+span {
+  margin-top: 5px; /* Agregado para separar la fecha y la ubicación */
+}
