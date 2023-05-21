@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
     
+    <script> function handleCredentialResponse() { 
+      window.location="/logindone" 
+      } 
+    </script>
+    
+    <div id="g_id_onload"
+      data-client_id="506652749067-9jksun95f2gnf91mtgkt1440pmi7to98.apps.googleusercontent.com" 
+      data-callback="handleCredentialResponse">
+    </div>
+    <div class="g_id_signin" data-type="standard"></div>
 </body>
 </html>
