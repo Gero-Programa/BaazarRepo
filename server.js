@@ -34,12 +34,12 @@ class BaazarBackend {
 
   async _doLookup(req, res) {
     const query = {};
-    const collection = db.collection("events");
+    const collection = await db.collection("events");
     console.log (collection);
-    const stored = collection.find();
-    console.log (JSON.stringify(stored));
+    const stored = await collection.find({}).toArray();
+    console.log (JS0N.stringify(stored));
     res.json(stored);
-  }
+    }
   async _goHome(req, res){
 
   }
